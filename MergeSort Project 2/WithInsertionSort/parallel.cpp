@@ -115,11 +115,11 @@ void MERGE(vector<long> &v, long ini, long fin, vector<long> &tmp){
 void MERGESORT_helper(vector<long> &v, long ini, long fin, vector<long> &tmp){
     if(fin-ini > RANGO){
         long mid = (fin + ini) / 2;
-        #pragma omp task shared(v)
+        #pragma omp task shared(v, tmp)
         {
             MERGESORT_helper(ref(v), ini, mid, ref(tmp));
         }
-        #pragma omp task shared(v)
+        #pragma omp task shared(v, tmp)
         {
             MERGESORT_helper(ref(v), mid, fin, ref(tmp));
         }

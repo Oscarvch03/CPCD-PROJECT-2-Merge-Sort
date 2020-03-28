@@ -1,7 +1,7 @@
 #!/bin/bash
 
-#SBATCH -J parallel32         # Job name
-#SBATCH -o parallel32.%j.out  # Name of stdout output file (%j expands to jobId)
+#SBATCH -J parallel12         # Job name
+#SBATCH -o parallel12.%j.out  # Name of stdout output file (%j expands to jobId)
 #SBATCH -c 12                 # Number of cores per task
 #SBATCH -t 00:30:00           # Run time (hh:mm:ss) - 0.5 hours
 

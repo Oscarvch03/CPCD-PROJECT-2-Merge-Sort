@@ -1,0 +1,18 @@
+Tiempos & SpeedUp
+Tamaño del Vector: 100Mill
+Algoritmo de Ordenamiento: MERGESORT
+Algoritmo secundario: InsertionSort
+
+
+Recordemos que el SpeedUp se calcula como TiempoSerial/TiempoParallel
+
+
+Serial: 21.34 seg
+
+Parallel (4 Proc): 9.41 seg // SpeedUp = 2.26
+
+Parallel (8 Proc): 8.00 seg // SpeedUp = 2.66
+
+Parallel (12 Proc): 5.11 seg // SpeedUp = 4.17
+
+Parallel (16 Proc): 5.26 seg // SpeedUp = 4.05

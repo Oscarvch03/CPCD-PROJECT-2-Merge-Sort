@@ -58,16 +58,16 @@ Para Ejecutar en el Cluster de la Universidad del Rosario:
     'sbatch serial.sh serial': Se envía a la cola del Cluster ordenar el vector en
                                vector.dat usando MergeSort serial
                                Genera el archivo de salida serial.###.out
-    'sbatch parallel4.sh serial': Se envía a la cola del Cluster ordenar el vector en
+    'sbatch parallel4.sh parallel': Se envía a la cola del Cluster ordenar el vector en
                                   vector.dat usando MergeSort parallel (4 Proc)
                                   Genera el archivo de salida parallel4.###.out
-    'sbatch parallel8.sh serial': Se envía a la cola del Cluster ordenar el vector en
+    'sbatch parallel8.sh parallel': Se envía a la cola del Cluster ordenar el vector en
                                   vector.dat usando MergeSort parallel (8 Proc)
                                   Genera el archivo de salida parallel8.###.out
-    'sbatch parallel12.sh serial': Se envía a la cola del Cluster ordenar el vector en
+    'sbatch parallel12.sh parallel': Se envía a la cola del Cluster ordenar el vector en
                                    vector.dat usando MergeSort parallel (12 Proc)
                                    Genera el archivo de salida parallel12.###.out
-    'sbatch parallel16.sh serial': Se envía a la cola del Cluster ordenar el vector en
+    'sbatch parallel16.sh parallel': Se envía a la cola del Cluster ordenar el vector en
                                    vector.dat usando MergeSort parallel (16 Proc)
                                    Genera el archivo de salida parallel16.###.out
 

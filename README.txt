@@ -70,6 +70,14 @@ Para Ejecutar en el Cluster de la Universidad del Rosario:
     'sbatch parallel16.sh parallel': Se envía a la cola del Cluster ordenar el vector en
                                    vector.dat usando MergeSort parallel (16 Proc)
                                    Genera el archivo de salida parallel16.###.out
+  
+  
+Otros:
+    
+    'make cleanL': Borra los ejecutables generados si se compila en Linux/Ubuntu
+    'make cleanW': Borra los ejecutables generados si se compila en Windows
+    'make cleanO': Borra las salidas generadas (.out), si se envian las tareas a la cola
+                   del Cluster de la Universidad del Rosario
 
 
 Finalmente, cada carpeta cuenta con el archivo TiemposAndSpeedUp.txt, en el cual
